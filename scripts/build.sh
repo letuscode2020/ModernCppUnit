@@ -20,7 +20,7 @@ cp -p "${BUILD_DIR}/compile_commands.json" "${PROJECT_DIR}"
 
 # Run tests
 
-for dir in c2 demo my_project
+for dir in c2 #demo my_project
 do
     cd ${BUILD_DIR}/${dir}
 
